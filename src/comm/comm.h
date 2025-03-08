@@ -264,6 +264,10 @@ typedef struct {
   int8_t pattern_mode;
   int32_t blind_spot_set;
   int8_t dual_emit_en;
+  std::string frame_id;
+  int8_t transfer_format;
+  std::string lidar_topic_name;
+  std::string imu_topic_name;
   ExtParameter extrinsic_param;
   volatile uint32_t set_bits;
   volatile uint32_t get_bits;

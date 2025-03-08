@@ -27,7 +27,6 @@ message(STATUS "${PROJECT_NAME} version: ${LIVOX_ROS_DRIVER2_VERSION}")
 #---------------------------------------------------------------------------------------
 # Add ROS Version MACRO
 #---------------------------------------------------------------------------------------
-add_definitions(-DBUILDING_ROS2)
 
 # find dependencies
 find_package(ament_cmake_auto REQUIRED)
