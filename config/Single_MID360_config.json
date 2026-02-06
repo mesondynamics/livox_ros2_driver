@@ -28,27 +28,6 @@
       "ip" : "192.168.1.248",
       "pcl_data_type" : 1,
       "pattern_mode" : 0,
-      "frame_id": "lidar_top_link",
-      "transfer_format": 1,
-      "lidar_topic_name": "livox/lidar_top",
-      "imu_topic_name": "livox/imu_top",
-      "extrinsic_parameter" : {
-        "roll": 0.0,
-        "pitch": 0.0,
-        "yaw": 0.0,
-        "x": 0,
-        "y": 0,
-        "z": 0
-      }
-    },
-    {
-      "ip" : "192.168.1.250",
-      "pcl_data_type" : 1,
-      "pattern_mode" : 0,
-      "frame_id": "lidar_front_link",
-      "transfer_format": 0,
-      "lidar_topic_name": "livox/lidar_front",
-      "imu_topic_name": "livox/imu_front",
       "extrinsic_parameter" : {
         "roll": 0.0,
         "pitch": 0.0,
